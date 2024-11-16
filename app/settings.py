@@ -29,7 +29,7 @@ DEPLOYED = RELEASE_STAGE != "local" and not DEBUG
 
 DEFAULT_FONT = "thick"
 
-MINIMUM_FONT_SIZE = 7
+MINIMUM_FONT_SIZE = 12
 
 # Image rendering
 
