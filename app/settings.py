@@ -29,7 +29,7 @@ DEPLOYED = RELEASE_STAGE != "local" and not DEBUG
 
 DEFAULT_FONT = "thick"
 
-MINIMUM_FONT_SIZE =  os.getenv("MINIMUM_FONT_SIZE")
+MINIMUM_FONT_SIZE =  int(os.getenv("MINIMUM_FONT_SIZE"))
 
 # Image rendering
 
